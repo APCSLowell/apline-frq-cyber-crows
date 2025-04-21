@@ -9,8 +9,8 @@ public APLine(int a, int b, int c){
 public double getSlope() {
   return ((double) -A)/B; 
 }
-public boolean isonLine(int x, int y){
-  if((A*x)+(b*y)+C==0)
+public boolean isOnLine(int x, int y){
+  if((A*x)+(B*y)+C==0)
     return true;  
   else 
     return false; 
